@@ -1,0 +1,35 @@
+# Ignorar dependencias de Node.js en todo el proyecto
+node_modules
+
+# Ignorar archivos de producción generados
+build
+dist
+
+# Ignorar archivos de configuración
+.env
+
+# Ignorar archivos de sistema y desarrollo generados
+.DS_Store
+
+# Reglas específicas del frontend que también se aplican en todo el proyecto
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignorar archivos locales específicos del frontend
+*.local
+
+# Reglas específicas del frontend para editores y herramientas de desarrollo
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
